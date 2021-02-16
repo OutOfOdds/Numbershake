@@ -17,5 +17,3 @@ Screenshots:
 |<img src="https://user-images.githubusercontent.com/58518594/107885794-55d1c180-6f0d-11eb-96f4-bb06f499b6ea.png" width="200" >|<img src="https://user-images.githubusercontent.com/58518594/107885797-579b8500-6f0d-11eb-8f78-c778cfdbc5e6.png" width="200" >|<img src="https://user-images.githubusercontent.com/58518594/107885800-58ccb200-6f0d-11eb-8da4-0dc12f284550.png" width="200" >|
 
 
-
-[<img src="https://user-images.githubusercontent.com/58518594/105368683-d81edc80-5c12-11eb-88e7-9a193983c17d.png" alt="Download on the App Store" height="40" />](https://apps.apple.com/ru/app/pokerlog/id1547807748)
