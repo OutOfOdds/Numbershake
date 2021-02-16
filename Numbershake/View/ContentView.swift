@@ -18,7 +18,7 @@ struct ContentView: View {
     @State public var showingInfoView = false
     @State private var showingAlert = false
     
-    let factTypes = ["date","year","trivia"]
+    let factTypes = ["date","year","trivia", "math"]
     let allertButtonColor: () = UIView.appearance(whenContainedInInstancesOf: [UIAlertController.self]).tintColor = .gray
     let buttonFeedback = UIImpactFeedbackGenerator(style: .medium)
     
@@ -152,7 +152,7 @@ struct ContentView: View {
                     Spacer()
                     
                     VStack {
-                        Text("or choose fact about:")
+                        Text("or choose manually:")
                             .font(Font.custom(Baloo.regular, size: 17))
                             .foregroundColor(Color.gray)
                             .opacity(0.7)
@@ -173,10 +173,10 @@ struct ContentView: View {
                                 .opacity(0.7 )
                             
                             Button(action: {
-                                getFact(with: "math")
+                                getFact(with: "trivia")
                                 buttonFeedback.impactOccurred()
                             }, label: {
-                                Text("Math")
+                                Text("Trivia")
                                     .foregroundColor(.gray)
                             })
                             .buttonStyle(RectangleButtonStyle(colorMode: appearance, width: 120, height: 60))

@@ -42,7 +42,7 @@ struct OnboardingView: View {
                         }).buttonStyle(RectangleButtonStyle(colorMode: true, width: 100, height: 50))
                         Text ("or")
                         Button(action: {}, label: {
-                            Text("Math")
+                            Text("Trivia")
                                 .font(Font.custom(Baloo.bold, size: 20))
                         }).buttonStyle(RectangleButtonStyle(colorMode: true, width: 100, height: 50))
                     }
